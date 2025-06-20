@@ -13,7 +13,7 @@ List<List<String>> generateGrid(int size) {
   return List.generate(size, (_) => List.filled(size, '~'));
 }
 
-// Erstellung der Schiffe und Festlegung der Koordinaten, Rückgabe der Schiffe in einer Liste
+// Erstellung der Schiffe und Festlegung der Koordinaten, Rückgabe der Schiffe und ihrer Koordinaten in einer Liste
 List<Point<int>> placeShips(int count, int size) {
   final random = Random();
   final ships = <Point<int>>{};

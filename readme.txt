@@ -1,7 +1,7 @@
 Konzept für ein Konsolenprogramm:
 
 Ein kleines Spiel: Schiffe versenken
-Das Spiel ist sehr einfach: Du musst Schiffe auf einem verdeckten Spielfeldaus findig machen
+Das Spiel ist sehr einfach: Du musst Schiffe auf einem verdeckten Spielfeld ausfindig machen
 
 Als erstes soll der Spieler seinen Namen eingeben.
 Er wird dann mit seinem Namen begrüsst und legt über zwei Fragen die Grösses des Spielfeldes, 
@@ -15,4 +15,4 @@ Gleichzeitig wird es auch schriftlich ausgegeben.
 Wenn der Spieler alle Schiffe versenkt hat, wird das Spiel beendet. Und die Anzahl der Schiffe und die Versuche werden angegeben.
 
 Mögliche Erweiterungen nach Fertigstellung des MVPs oben: Weitere Spieler, unterschiedliche Schiffklassen (mit Grössen über mehr Felder,'
-über vier Felder wäre Schlachtschiff).
+über vier Felder wäre z.B. Schlachtschiff).
