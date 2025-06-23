@@ -17,13 +17,15 @@ List<List<String>> generateGrid(int size) {
 List<Point<int>> placeShips(int count, int size) {
   final random = Random();
   final ships = <Point<int>>{};
-  // Verwenden eines Sets, um doppelte Koordinaten zu vermeiden
+  // Schleife zum Platzieren der Schiffe
+  // Solange die Anzahl der Schiffe kleiner als die gewünschte Anzahl ist,
+  // werden zufällige Koordinaten generiert und die Schiffe in der Liste gespeichert
   while (ships.length < count) {
     int x = random.nextInt(size);
     int y = random.nextInt(size);
     ships.add(Point(x, y));
   }
-  // Konvertieren des Set in eine Liste, um die Schiffe zurückzugeben
+  // Gibt die Liste, mit Schiffen zurück
   return ships.toList();
 }
 
